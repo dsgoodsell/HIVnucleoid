@@ -45,6 +45,10 @@ inpeaks.dat   experimental integrase binding sites
 ncpeaks.dat   experimental nucleocapsid binding sites
 5UTR.const    constraint file for secondary structure in the 5'UTR
 
+*** the accompanying script also requires an empty file called
+no.position, and I have not been able to get GitHub to store it,
+so create an empty file called no.position ***
+
 The programs may be run individually, reading input commands
 from Unit 5, or from a command file, such as:
 ./condense < condense.inp > condense.log     (log file is optional)
